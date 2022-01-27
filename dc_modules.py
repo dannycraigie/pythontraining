@@ -34,3 +34,8 @@
 #
 #print(requests.get("https://google.com"))
 
+def test_score(a,b,c):
+    avg=(a+b+c)/3
+    return(avg)
+
+print(test_score(4,4,4))
